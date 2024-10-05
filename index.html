@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Zahid Asghar">
+<meta name="dcterms.date" content="2024-09-29">
 
-<title>Course Title</title>
+<title>Machine Learning and Big Data in Economics – Inferential Statistics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,12 +69,13 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="style.scss">
 </head>
 
 <body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -88,16 +91,49 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Machine Learning and Big Data in Economics</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Economics</div>
+                <div class="quarto-category">Big Data</div>
+                <div class="quarto-category">Machine Learning</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Zahid Asghar </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 29, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Course Title</a> 
-        <div class="sidebar-tools-main">
-    <a href="https://github.com/Pakillo/quarto-course-website-template" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./images/ML.webp" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="https://github.com/Zahedasghar" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
 </div>
-    </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -126,8 +162,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://github.com/Pakillo/quarto-course-website-template/discussions" class="sidebar-item-text sidebar-link">
+  <a href="https://discord.com/channels/1209036560503279616/1209036560503279619" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Forum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./taxonomy.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taxonomy</span></a>
   </div>
 </li>
     </ul>
@@ -135,34 +177,156 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course Description:</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes:</a></li>
+  <li><a href="#course-structure-and-topics" id="toc-course-structure-and-topics" class="nav-link" data-scroll-target="#course-structure-and-topics">Course Structure and Topics</a>
+  <ul class="collapse">
+  <li><a href="#week-1-2-introduction-to-machine-learning-and-big-data-in-economics" id="toc-week-1-2-introduction-to-machine-learning-and-big-data-in-economics" class="nav-link" data-scroll-target="#week-1-2-introduction-to-machine-learning-and-big-data-in-economics">Week 1-2: Introduction to Machine Learning and Big Data in Economics</a></li>
+  <li><a href="#week-3-4-supervised-learning-and-regression" id="toc-week-3-4-supervised-learning-and-regression" class="nav-link" data-scroll-target="#week-3-4-supervised-learning-and-regression">Week 3-4: Supervised Learning and Regression</a></li>
+  <li><a href="#week-5-6-classification-and-decision-trees" id="toc-week-5-6-classification-and-decision-trees" class="nav-link" data-scroll-target="#week-5-6-classification-and-decision-trees">Week 5-6: Classification and Decision Trees</a></li>
+  <li><a href="#week-7-8-causal-inference-using-machine-learning" id="toc-week-7-8-causal-inference-using-machine-learning" class="nav-link" data-scroll-target="#week-7-8-causal-inference-using-machine-learning">Week 7-8: Causal Inference Using Machine Learning</a></li>
+  <li><a href="#week-9-10-unsupervised-learning" id="toc-week-9-10-unsupervised-learning" class="nav-link" data-scroll-target="#week-9-10-unsupervised-learning">Week 9-10: Unsupervised Learning</a></li>
+  <li><a href="#week-11-12-model-evaluation-and-cross-validation" id="toc-week-11-12-model-evaluation-and-cross-validation" class="nav-link" data-scroll-target="#week-11-12-model-evaluation-and-cross-validation">Week 11-12: Model Evaluation and Cross-Validation</a></li>
+  <li><a href="#week-13-14-big-data-and-machine-learning-in-economics" id="toc-week-13-14-big-data-and-machine-learning-in-economics" class="nav-link" data-scroll-target="#week-13-14-big-data-and-machine-learning-in-economics">Week 13-14: Big Data and Machine Learning in Economics</a></li>
+  <li><a href="#week-15-advanced-topics-and-review" id="toc-week-15-advanced-topics-and-review" class="nav-link" data-scroll-target="#week-15-advanced-topics-and-review">Week 15: Advanced Topics and Review</a></li>
+  <li><a href="#week-16-empirical-project-presentations" id="toc-week-16-empirical-project-presentations" class="nav-link" data-scroll-target="#week-16-empirical-project-presentations">Week 16: Empirical Project Presentations</a></li>
+  </ul></li>
+  <li><a href="#assessment" id="toc-assessment" class="nav-link" data-scroll-target="#assessment">Assessment:</a></li>
+  <li><a href="#optional-textbooks" id="toc-optional-textbooks" class="nav-link" data-scroll-target="#optional-textbooks">Optional Textbooks:</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Course Title</h1>
+
+
+
+
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description:</h2>
+<p>This course provides an introduction to machine learning and related methods for big data from an economics perspective. Students will learn modern estimation methods for high-dimensional data, with a focus on causal inference and prediction problems in economics, business, and related fields. Through programming assignments and a final empirical project, students will apply machine learning techniques to real-world data.</p>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes:</h2>
+<p>By the end of the course, students should be able to:</p>
+<ul>
+<li>Apply machine learning methods to estimate causal effects in experimental and observational settings.</li>
+<li>Solve prediction problems in economics using machine learning techniques.</li>
+<li>Understand the uses, strengths, and limitations of machine learning for answering economic questions.</li>
+<li>Implement machine learning algorithms using Python/R.</li>
+<li>Analyze and interpret economic data using machine learning methods.</li>
+<li>Conduct an empirical research project utilizing machine learning techniques.</li>
+</ul>
+</section>
+<section id="course-structure-and-topics" class="level2">
+<h2 class="anchored" data-anchor-id="course-structure-and-topics">Course Structure and Topics</h2>
+<section id="week-1-2-introduction-to-machine-learning-and-big-data-in-economics" class="level3">
+<h3 class="anchored" data-anchor-id="week-1-2-introduction-to-machine-learning-and-big-data-in-economics">Week 1-2: Introduction to Machine Learning and Big Data in Economics</h3>
+<ul>
+<li>Overview of big data and machine learning.</li>
+<li>Key differences between traditional econometric techniques and machine learning methods.</li>
+<li><strong>Readings</strong>: Taddy, M. (2019), Chapter 1 from <em>Business Data Science</em></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/big_data.jpg" class="img-fluid figure-img"></p>
+<figcaption>Big Data</figcaption>
+</figure>
 </div>
+</section>
+<section id="week-3-4-supervised-learning-and-regression" class="level3">
+<h3 class="anchored" data-anchor-id="week-3-4-supervised-learning-and-regression">Week 3-4: Supervised Learning and Regression</h3>
+<ul>
+<li>Overview of supervised learning and its relevance to economic data.</li>
+<li><strong>Lab</strong>: Implementing regression methods using Python/R.</li>
+<li><strong>Readings</strong>: Taddy, M. (2019), Chapter 3; Gareth et al.&nbsp;(2017), Chapter 3, 6 from <em>An Introduction to Statistical Learning</em></li>
+</ul>
+</section>
+<section id="week-5-6-classification-and-decision-trees" class="level3">
+<h3 class="anchored" data-anchor-id="week-5-6-classification-and-decision-trees">Week 5-6: Classification and Decision Trees</h3>
+<ul>
+<li>Decision trees, random forests.</li>
+<li><strong>Lab</strong>: Decision trees and random forests in Python/R.</li>
+<li><strong>Readings</strong>: Gareth et al.&nbsp;(2017), Chapter 4, 8</li>
+</ul>
+</section>
+<section id="week-7-8-causal-inference-using-machine-learning" class="level3">
+<h3 class="anchored" data-anchor-id="week-7-8-causal-inference-using-machine-learning">Week 7-8: Causal Inference Using Machine Learning</h3>
+<ul>
+<li>Randomized control trials vs observational data.</li>
+<li><strong>Readings</strong>: Taddy, M. (2019), Chapter 4 from <em>Business Data Science</em>; Angrist &amp; Pischke (2014) Chapter 2 from <em>Mastering ’Metrics</em></li>
+</ul>
+</section>
+<section id="week-9-10-unsupervised-learning" class="level3">
+<h3 class="anchored" data-anchor-id="week-9-10-unsupervised-learning">Week 9-10: Unsupervised Learning</h3>
+<ul>
+<li>Overview of unsupervised learning: PCA and K-means clustering.</li>
+<li><strong>Lab</strong>: PCA and clustering in Python/R.</li>
+<li><strong>Readings</strong>: Gareth et al.&nbsp;(2017), Chapter 10</li>
+</ul>
+</section>
+<section id="week-11-12-model-evaluation-and-cross-validation" class="level3">
+<h3 class="anchored" data-anchor-id="week-11-12-model-evaluation-and-cross-validation">Week 11-12: Model Evaluation and Cross-Validation</h3>
+<ul>
+<li>Methods for model evaluation, cross-validation.</li>
+<li><strong>Lab</strong>: Cross-validation and model selection in Python/R.</li>
+<li><strong>Readings</strong>: Gareth et al.&nbsp;(2017), Chapter 5</li>
+</ul>
+</section>
+<section id="week-13-14-big-data-and-machine-learning-in-economics" class="level3">
+<h3 class="anchored" data-anchor-id="week-13-14-big-data-and-machine-learning-in-economics">Week 13-14: Big Data and Machine Learning in Economics</h3>
+<ul>
+<li>Case studies in business and economics.</li>
+<li><strong>Readings</strong>: Taddy, M. (2019), Chapter 5</li>
+</ul>
+</section>
+<section id="week-15-advanced-topics-and-review" class="level3">
+<h3 class="anchored" data-anchor-id="week-15-advanced-topics-and-review">Week 15: Advanced Topics and Review</h3>
+<ul>
+<li>Ensemble methods: boosting and bagging.</li>
+<li><strong>Lab</strong>: Implementing ensemble methods using Python/R.</li>
+<li><strong>Readings</strong>: Gareth et al.&nbsp;(2017), Chapter 8</li>
+</ul>
+</section>
+<section id="week-16-empirical-project-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="week-16-empirical-project-presentations">Week 16: Empirical Project Presentations</h3>
+<ul>
+<li>Students present their final empirical projects applying machine learning to a real-world dataset.</li>
+</ul>
+</section>
+</section>
+<section id="assessment" class="level2">
+<h2 class="anchored" data-anchor-id="assessment">Assessment:</h2>
+<ul>
+<li><strong>Assignments (40%)</strong>: Regular programming assignments.</li>
+<li><strong>Midterm Exam (20%)</strong>.</li>
+<li><strong>Final Project (40%)</strong>: Empirical project applying course concepts to data.</li>
+</ul>
+</section>
+<section id="optional-textbooks" class="level2">
+<h2 class="anchored" data-anchor-id="optional-textbooks">Optional Textbooks:</h2>
+<ol type="1">
+<li><p>Taddy, M. (2019) <em>Business Data Science: Combining Machine Learning and Economics to Optimize Business Decisions</em>.</p></li>
+<li><p>ISL Gareth, J.; Witten, D.; Hastie, T.; and Tibshirani, R. (2023) <em>An Introduction to Statistical Learning</em> , 2nd Edition. Springer.</p></li>
+<li><p>Angrist, J. &amp; Pischke, J. (2014) <em>Mastering ’Metrics: The Path from Cause to Effect</em>.</p></li>
+</ol>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<p><a href="https://maxkasy.github.io/home/ML_Oxford_2024/">Foundations of ML</a></p>
+<p><a href="https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/trees/">The Analytics Edge</a></p>
+<p><a href="https://www.bankofcanada.ca/2023/10/staff-analytical-note-2023-16/">Machine Learning for Econometrics</a></p>
+<p><a href="https://psantanna.com/Econ520">Data Science for Economics</a></p>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Course info &amp; details here</p>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
