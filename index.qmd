@@ -1,5 +1,111 @@
 ---
-title: "Course Title"
+title: "Machine Learning and Big Data in Economics"
+title-block-banner: true
+author: "Zahid Asghar"
+date: "2024-09-29"
+categories: [Economics, Big Data, Machine Learning]
+format: 
+  html:
+    logo: "qau1.jpg"
+    theme: [default, custom1.scss]
+    css: style.scss
+execute:
+  freeze: auto
+  echo: false
+  message: false
+  warning: false
+  eval: false
 ---
 
-Course info & details here
+## Course Description:
+
+This course provides an introduction to machine learning and related methods for big data from an economics perspective. Students will learn modern estimation methods for high-dimensional data, with a focus on causal inference and prediction problems in economics, business, and related fields. Through programming assignments and a final empirical project, students will apply machine learning techniques to real-world data.
+
+## Learning Outcomes:
+
+By the end of the course, students should be able to:
+
+-   Apply machine learning methods to estimate causal effects in experimental and observational settings.
+-   Solve prediction problems in economics using machine learning techniques.
+-   Understand the uses, strengths, and limitations of machine learning for answering economic questions.
+-   Implement machine learning algorithms using Python/R.
+-   Analyze and interpret economic data using machine learning methods.
+-   Conduct an empirical research project utilizing machine learning techniques.
+
+## Course Structure and Topics
+
+### Week 1-2: Introduction to Machine Learning and Big Data in Economics
+
+-   Overview of big data and machine learning.
+-   Key differences between traditional econometric techniques and machine learning methods.
+-   **Readings**: Taddy, M. (2019), Chapter 1 from *Business Data Science*
+
+   ![Big Data](images/big_data.jpg)
+
+### Week 3-4: Supervised Learning and Regression
+
+-   Overview of supervised learning and its relevance to economic data.
+-   **Lab**: Implementing regression methods using Python/R.
+-   **Readings**: Taddy, M. (2019), Chapter 3; Gareth et al. (2017), Chapter 3, 6 from *An Introduction to Statistical Learning*
+
+### Week 5-6: Classification and Decision Trees
+
+-   Decision trees, random forests.
+-   **Lab**: Decision trees and random forests in Python/R.
+-   **Readings**: Gareth et al. (2017), Chapter 4, 8
+
+### Week 7-8: Causal Inference Using Machine Learning
+
+-   Randomized control trials vs observational data.
+-   **Readings**: Taddy, M. (2019), Chapter 4 from *Business Data Science*; Angrist & Pischke (2014) Chapter 2 from *Mastering ‘Metrics*
+
+### Week 9-10: Unsupervised Learning
+
+-   Overview of unsupervised learning: PCA and K-means clustering.
+-   **Lab**: PCA and clustering in Python/R.
+-   **Readings**: Gareth et al. (2017), Chapter 10
+
+### Week 11-12: Model Evaluation and Cross-Validation
+
+-   Methods for model evaluation, cross-validation.
+-   **Lab**: Cross-validation and model selection in Python/R.
+-   **Readings**: Gareth et al. (2017), Chapter 5
+
+### Week 13-14: Big Data and Machine Learning in Economics
+
+-   Case studies in business and economics.
+-   **Readings**: Taddy, M. (2019), Chapter 5
+
+### Week 15: Advanced Topics and Review
+
+-   Ensemble methods: boosting and bagging.
+-   **Lab**: Implementing ensemble methods using Python/R.
+-   **Readings**: Gareth et al. (2017), Chapter 8
+
+### Week 16: Empirical Project Presentations
+
+-   Students present their final empirical projects applying machine learning to a real-world dataset.
+
+## Assessment:
+
+-   **Assignments (40%)**: Regular programming assignments.
+-   **Midterm Exam (20%)**.
+-   **Final Project (40%)**: Empirical project applying course concepts to data.
+
+## Optional Textbooks:
+
+1.  Taddy, M. (2019) *Business Data Science: Combining Machine Learning and Economics to Optimize Business Decisions*.
+
+2.  ISL Gareth, J.; Witten, D.; Hastie, T.; and Tibshirani, R. (2023) *An Introduction to Statistical Learning* , 2nd Edition. Springer.
+
+3.  Angrist, J. & Pischke, J. (2014) *Mastering ‘Metrics: The Path from Cause to Effect*.
+
+## Additional Resources
+
+[Foundations of ML](https://maxkasy.github.io/home/ML_Oxford_2024/)
+
+[The Analytics Edge](https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/trees/)
+
+[Machine Learning for Econometrics](https://www.bankofcanada.ca/2023/10/staff-analytical-note-2023-16/)
+
+[Data Science for Economics](https://psantanna.com/Econ520)

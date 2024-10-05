@@ -3,15 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "Course Title"
+  title: "Inferential Statistics"
   sidebar:
     background: primary
-    # logo: "images/logo.png"
+    logo: "images/ML.webp"
     pinned: true
     align: center
     tools:
       - icon: github
-        href: https://github.com/Pakillo/quarto-course-website-template
+        href: https://github.com/Zahedasghar
         text: GitHub
     style: docked
     contents:
@@ -21,8 +21,10 @@ website:
         text: Schedule
       - href: materials.qmd
         text: Materials
-      - href: https://github.com/Pakillo/quarto-course-website-template/discussions
+      - href: https://discord.com/channels/1209036560503279616/1209036560503279619
         text: Forum
+      - href: taxonomy.qmd
+        text: Taxonomy
 
 format:
   html:
