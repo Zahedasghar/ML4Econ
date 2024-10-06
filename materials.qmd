@@ -2,7 +2,9 @@
 title: "Course Materials"
 ---
 
-[Datasets](data/)
+All course material is available on this page. Moreover, my github repository will be shared during class to download the materials. 
 
-[Slides](slides/)
+[Datasets](data/https://trevorhastie.github.io/ISLR/data.html)
+
+[Slides](slides/https://trevorhastie.github.io/ISLR/data.html)
 
