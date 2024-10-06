@@ -21,8 +21,8 @@ website:
         text: Schedule
       - href: materials.qmd
         text: Materials
-      - href: https://discord.com/channels/1209036560503279616/1209036560503279619
-
+      - href: https://discord.com/channels/1292187441565794316/1292187441565794319
+        text: Discord
 
 format:
   html:

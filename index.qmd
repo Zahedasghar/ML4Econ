@@ -21,76 +21,94 @@ execute:
 
 This course provides an introduction to machine learning and related methods for big data from an economics perspective. Students will learn modern estimation methods for high-dimensional data, with a focus on causal inference and prediction problems in economics, business, and related fields. Through programming assignments and a final empirical project, students will apply machine learning techniques to real-world data.
 
-## Learning Outcomes:
+## Learning Outcomes
 
 By the end of the course, students should be able to:
 
--   Apply machine learning methods to estimate causal effects in experimental and observational settings.
--   Solve prediction problems in economics using machine learning techniques.
--   Understand the uses, strengths, and limitations of machine learning for answering economic questions.
--   Implement machine learning algorithms using Python/R.
--   Analyze and interpret economic data using machine learning methods.
--   Conduct an empirical research project utilizing machine learning techniques.
+- Apply machine learning methods to estimate causal effects in experimental and observational settings.
+- Solve prediction problems in economics using machine learning techniques.
+- Understand the uses, strengths, and limitations of machine learning for answering economic questions.
+- Implement machine learning algorithms using Python/R.
+- Analyze and interpret economic data using machine learning methods.
+- Conduct an empirical research project utilizing machine learning techniques.
 
-## Course Structure and Topics
+# Course Structure and Topics
 
-### Week 1-2: Introduction to Machine Learning and Big Data in Economics
+## Week 1-2: Introduction to Machine Learning and Big Data in Economics
 
--   Overview of big data and machine learning.
--   Key differences between traditional econometric techniques and machine learning methods.
--   **Readings**: Taddy, M. (2019), Chapter 1 from *Business Data Science*
+- Overview of big data and machine learning.
+- Key differences between traditional econometric techniques and machine learning methods.
+- Bias-variance trade-off and its implications for econometric models.
 
-   ![Big Data](images/big_data.jpg)
+**Readings**: *Introduction to Statistical Learning* (ISL), Chapter 1; Taddy, M. (2019), Chapter 1 from *Business Data Science*.
 
-### Week 3-4: Supervised Learning and Regression
+## Week 3-4: Supervised Learning and Regression
 
--   Overview of supervised learning and its relevance to economic data.
--   **Lab**: Implementing regression methods using Python/R.
--   **Readings**: Taddy, M. (2019), Chapter 3; Gareth et al. (2017), Chapter 3, 6 from *An Introduction to Statistical Learning*
+- Overview of supervised learning and its relevance to economic data.
+- Linear regression and its extensions in machine learning contexts.
 
-### Week 5-6: Classification and Decision Trees
+**Lab**: Implementing regression methods using Python/R.  
+**Readings**: ISL, Chapters 2-3; Taddy, M. (2019), Chapter 3.
 
--   Decision trees, random forests.
--   **Lab**: Decision trees and random forests in Python/R.
--   **Readings**: Gareth et al. (2017), Chapter 4, 8
+## Week 5-6: Classification Methods
 
-### Week 7-8: Causal Inference Using Machine Learning
+- Introduction to classification problems, logistic regression, and discriminant analysis.
+- Decision trees and their use for classification in economics.
 
--   Randomized control trials vs observational data.
--   **Readings**: Taddy, M. (2019), Chapter 4 from *Business Data Science*; Angrist & Pischke (2014) Chapter 2 from *Mastering ‘Metrics*
+**Lab**: Logistic regression, LDA, QDA, and decision trees in Python/R.  
+**Readings**: ISL, Chapters 4 and 8.
 
-### Week 9-10: Unsupervised Learning
+## Week 7-8: Resampling Methods and Model Selection
 
--   Overview of unsupervised learning: PCA and K-means clustering.
--   **Lab**: PCA and clustering in Python/R.
--   **Readings**: Gareth et al. (2017), Chapter 10
+- Cross-validation and bootstrap methods for model evaluation.
+- Choosing the best model for economic data applications.
 
-### Week 11-12: Model Evaluation and Cross-Validation
+**Lab**: Implementing cross-validation and model selection in Python/R.  
+**Readings**: ISL, Chapter 5.
 
--   Methods for model evaluation, cross-validation.
--   **Lab**: Cross-validation and model selection in Python/R.
--   **Readings**: Gareth et al. (2017), Chapter 5
+## Week 9-10: Tree-Based Methods
 
-### Week 13-14: Big Data and Machine Learning in Economics
+- Decision trees, bagging, random forests, and boosting.
+- Application of tree-based models for predictive analysis in economics.
 
--   Case studies in business and economics.
--   **Readings**: Taddy, M. (2019), Chapter 5
+**Lab**: Random forests and boosting in Python/R.  
+**Readings**: ISL, Chapter 8.
 
-### Week 15: Advanced Topics and Review
+## Week 11-12: Causal Inference Using Machine Learning
 
--   Ensemble methods: boosting and bagging.
--   **Lab**: Implementing ensemble methods using Python/R.
--   **Readings**: Gareth et al. (2017), Chapter 8
+- Randomized control trials vs observational data.
+- Using machine learning models to predict treatment effects.
 
-### Week 16: Empirical Project Presentations
+**Lab**: Practical causal inference examples using Python/R.  
+**Readings**: Taddy, M. (2019), Chapter 4; Angrist & Pischke (2014), Chapter 2 from *Mastering ‘Metrics*.
 
--   Students present their final empirical projects applying machine learning to a real-world dataset.
+## Week 13-14: Unsupervised Learning
 
-## Assessment:
+- Overview of unsupervised learning techniques: Principal Component Analysis (PCA) and clustering.
+- Applications of unsupervised learning in economics, such as market segmentation.
 
--   **Assignments (40%)**: Regular programming assignments.
--   **Midterm Exam (20%)**.
--   **Final Project (40%)**: Empirical project applying course concepts to data.
+**Lab**: PCA and K-means clustering in Python/R.  
+**Readings**: ISL, Chapter 10.
+
+## Week 15: Advanced Topics and Review
+
+- Introduction to support vector machines (SVMs) and ensemble methods like boosting.
+- Overview of neural networks and deep learning, focusing on applications in economics.
+
+**Lab**: Implementing SVMs and neural networks in Python/R.  
+**Readings**: ISL, Chapters 9-11.
+
+## Week 16: Empirical Project Presentations
+
+- Students present their final empirical projects applying machine learning to a real-world dataset.
+- Peer feedback and discussion.
+
+# Assessment
+
+- **Assignments (40%)**: Regular programming assignments covering theory and implementation of machine learning methods.
+- **Midterm Exam (20%)**: Evaluates understanding of supervised and unsupervised learning techniques covered up to Week 8.
+- **Final Project (40%)**: Empirical project applying course concepts to a dataset, including project report and presentation.
+
 
 ## Optional Textbooks:
 
