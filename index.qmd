@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning and Big Data in Economics"
 title-block-banner: true
-author: "Zahid Asghar"
+author: "Zahid Asghar, School of Economics, Quaid-i-Azam University"
 date: "2024-09-29"
 categories: [Economics, Big Data, Machine Learning]
 format: 

@@ -4,7 +4,10 @@ title: "Course Materials"
 
 All course material is available on this page. Moreover, my github repository will be shared during class to download the materials. 
 
-[Datasets](data/https://trevorhastie.github.io/ISLR/data.html)
+[Datasets](https://trevorhastie.github.io/ISLR/data.html)
 
-[Slides](slides/https://trevorhastie.github.io/ISLR/data.html)
+[Slides](https://trevorhastie.github.io/ISLR/data.html)
+
+[Integrating Machine Learning into Economics](slides/ML_in_economics.html)
+
 

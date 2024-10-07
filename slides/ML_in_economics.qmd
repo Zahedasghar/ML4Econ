@@ -1,0 +1,139 @@
+---
+title: "Integrating Machine Learning into Economics"
+format: revealjs
+---
+
+# Integrating Machine Learning into Economics
+
+---
+
+## Introduction
+
+- **Appreciation for Machine Learning**
+  - Gained from experience in technology
+- **Evolution in Economics**
+  - Initially rare in economics and social sciences
+  - Now prevalent in PhD dissertations
+
+---
+
+## Traditional Economics Research
+
+- **Empirical Focus**
+  - Use of data with models
+  - Often on small datasets
+- **Policy Questions**
+  - Emphasis on cause and effect
+  - Examples:
+    - Impact of raising prices
+    - Effects of increasing minimum wage
+
+---
+
+## Early Machine Learning Focus
+
+- **Prediction and Classification**
+  - Classifying images (e.g., cats vs. dogs)
+  - Reliance on labeled datasets
+- **Black Box Models**
+  - Performance measured by accuracy on test data
+  - Limited understanding of underlying processes
+
+---
+
+## Gap Between ML and Economics
+
+- **Different Objectives**
+  - ML: Prediction accuracy
+  - Economics: Causal inference and "what-if" scenarios
+- **Challenges**
+  - Lack of tools addressing causal questions in ML
+  - Difficulty in assessing unseen counterfactuals
+
+---
+
+## Bridging the Gap
+
+- **Developed Conceptual Frameworks**
+  - Connected ML innovations with economic research needs
+- **Created Tools and Software**
+  - Personalized policy development
+  - Widely adopted by social scientists and tech firms
+- **Applications**
+  - Reanalyzing experiments
+  - Administrative data analysis
+
+---
+
+## Applications of Integrated ML
+
+- **Personalized Medicine**
+  - Administer drugs to those who benefit most
+- **Economic Policies**
+  - Assess effects of layoffs on different demographics
+- **Industry Adoption**
+  - Integration into A/B testing platforms
+  - Improved decision-making in tech companies
+
+---
+
+## Promoting Interdisciplinary Collaboration
+
+- **Recognized Need**
+  - Engineers understanding social implications
+  - Ethicists contributing to technological solutions
+- **Approach**
+  - Solve real problems collaboratively
+  - Engage deeply across disciplines
+- **Outcomes**
+  - Better handling of content moderation
+  - Addressing differential impacts on groups
+
+---
+
+## Human-Centered AI Institute
+
+- **Establishment**
+  - Founded at Stanford in 2017
+- **Vision**
+  - Advance AI research responsibly
+  - Focus on ethics and societal impact
+- **Goals**
+  - Foster interdisciplinary research
+  - Educate on responsible AI use
+
+---
+
+## Educational Initiatives
+
+- **Identified Gaps in Learning**
+  - Engineers lacked exposure to real-world problems
+- **Curriculum Development**
+  - Combined technical skills with domain knowledge
+- **Student Outcomes**
+  - Better prepared for industry challenges
+  - More holistic understanding of AI applications
+
+---
+
+## Conclusion
+
+- **Integration is Key**
+  - Combining ML with economics enhances both fields
+- **Multidisciplinary Approaches**
+  - Essential for responsible AI development
+- **Future Directions**
+  - Continue educating and bridging gaps
+  - Foster collaborations for societal benefit
+
+---
+
+# Thank You!
+
+- **Questions and Discussion**
+- **Contact Information**
+  - Email: [Your Email]
+  - Phone: [Your Phone Number]
+
+---
+

@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Inferential Statistics"
+  title: "Machine Learning and Big Data in Economics"
   sidebar:
     background: primary
     logo: "images/ML.webp"
@@ -26,8 +26,8 @@ website:
 
 format:
   html:
-    theme: cosmo
-    # css: styles.css
+    theme: [default, custom1.scss]
+    css: style.scss
     toc: true
 
 execute:
