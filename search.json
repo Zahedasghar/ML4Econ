@@ -30,6 +30,76 @@
     ]
   },
   {
+    "objectID": "slides/ML_in_economics.html#introduction",
+    "href": "slides/ML_in_economics.html#introduction",
+    "title": "Integrating Machine Learning into Economics",
+    "section": "Introduction",
+    "text": "Introduction\n\nAppreciation for Machine Learning\n\nGained from experience in technology\n\nEvolution in Economics\n\nInitially rare in economics and social sciences\nNow prevalent in PhD dissertations"
+  },
+  {
+    "objectID": "slides/ML_in_economics.html#traditional-economics-research",
+    "href": "slides/ML_in_economics.html#traditional-economics-research",
+    "title": "Integrating Machine Learning into Economics",
+    "section": "Traditional Economics Research",
+    "text": "Traditional Economics Research\n\nEmpirical Focus\n\nUse of data with models\nOften on small datasets\n\nPolicy Questions\n\nEmphasis on cause and effect\nExamples:\n\nImpact of raising prices\nEffects of increasing minimum wage"
+  },
+  {
+    "objectID": "slides/ML_in_economics.html#early-machine-learning-focus",
+    "href": "slides/ML_in_economics.html#early-machine-learning-focus",
+    "title": "Integrating Machine Learning into Economics",
+    "section": "Early Machine Learning Focus",
+    "text": "Early Machine Learning Focus\n\nPrediction and Classification\n\nClassifying images (e.g., cats vs. dogs)\nReliance on labeled datasets\n\nBlack Box Models\n\nPerformance measured by accuracy on test data\nLimited understanding of underlying processes"
+  },
+  {
+    "objectID": "slides/ML_in_economics.html#gap-between-ml-and-economics",
+    "href": "slides/ML_in_economics.html#gap-between-ml-and-economics",
+    "title": "Integrating Machine Learning into Economics",
+    "section": "Gap Between ML and Economics",
+    "text": "Gap Between ML and Economics\n\nDifferent Objectives\n\nML: Prediction accuracy\nEconomics: Causal inference and “what-if” scenarios\n\nChallenges\n\nLack of tools addressing causal questions in ML\nDifficulty in assessing unseen counterfactuals"
+  },
+  {
+    "objectID": "slides/ML_in_economics.html#bridging-the-gap",
+    "href": "slides/ML_in_economics.html#bridging-the-gap",
+    "title": "Integrating Machine Learning into Economics",
+    "section": "Bridging the Gap",
+    "text": "Bridging the Gap\n\nDeveloped Conceptual Frameworks\n\nConnected ML innovations with economic research needs\n\nCreated Tools and Software\n\nPersonalized policy development\nWidely adopted by social scientists and tech firms\n\nApplications\n\nReanalyzing experiments\nAdministrative data analysis"
+  },
+  {
+    "objectID": "slides/ML_in_economics.html#applications-of-integrated-ml",
+    "href": "slides/ML_in_economics.html#applications-of-integrated-ml",
+    "title": "Integrating Machine Learning into Economics",
+    "section": "Applications of Integrated ML",
+    "text": "Applications of Integrated ML\n\nPersonalized Medicine\n\nAdminister drugs to those who benefit most\n\nEconomic Policies\n\nAssess effects of layoffs on different demographics\n\nIndustry Adoption\n\nIntegration into A/B testing platforms\nImproved decision-making in tech companies"
+  },
+  {
+    "objectID": "slides/ML_in_economics.html#promoting-interdisciplinary-collaboration",
+    "href": "slides/ML_in_economics.html#promoting-interdisciplinary-collaboration",
+    "title": "Integrating Machine Learning into Economics",
+    "section": "Promoting Interdisciplinary Collaboration",
+    "text": "Promoting Interdisciplinary Collaboration\n\nRecognized Need\n\nEngineers understanding social implications\nEthicists contributing to technological solutions\n\nApproach\n\nSolve real problems collaboratively\nEngage deeply across disciplines\n\nOutcomes\n\nBetter handling of content moderation\nAddressing differential impacts on groups"
+  },
+  {
+    "objectID": "slides/ML_in_economics.html#human-centered-ai-institute",
+    "href": "slides/ML_in_economics.html#human-centered-ai-institute",
+    "title": "Integrating Machine Learning into Economics",
+    "section": "Human-Centered AI Institute",
+    "text": "Human-Centered AI Institute\n\nEstablishment\n\nFounded at Stanford in 2017\n\nVision\n\nAdvance AI research responsibly\nFocus on ethics and societal impact\n\nGoals\n\nFoster interdisciplinary research\nEducate on responsible AI use"
+  },
+  {
+    "objectID": "slides/ML_in_economics.html#educational-initiatives",
+    "href": "slides/ML_in_economics.html#educational-initiatives",
+    "title": "Integrating Machine Learning into Economics",
+    "section": "Educational Initiatives",
+    "text": "Educational Initiatives\n\nIdentified Gaps in Learning\n\nEngineers lacked exposure to real-world problems\n\nCurriculum Development\n\nCombined technical skills with domain knowledge\n\nStudent Outcomes\n\nBetter prepared for industry challenges\nMore holistic understanding of AI applications"
+  },
+  {
+    "objectID": "slides/ML_in_economics.html#conclusion",
+    "href": "slides/ML_in_economics.html#conclusion",
+    "title": "Integrating Machine Learning into Economics",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nIntegration is Key\n\nCombining ML with economics enhances both fields\n\nMultidisciplinary Approaches\n\nEssential for responsible AI development\n\nFuture Directions\n\nContinue educating and bridging gaps\nFoster collaborations for societal benefit"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Machine Learning and Big Data in Economics",
@@ -174,7 +244,7 @@
     "href": "materials.html",
     "title": "Course Materials",
     "section": "",
-    "text": "All course material is available on this page. Moreover, my github repository will be shared during class to download the materials.\nDatasets\nSlides",
+    "text": "All course material is available on this page. Moreover, my github repository will be shared during class to download the materials.\nDatasets\nSlides\nIntegrating Machine Learning into Economics",
     "crumbs": [
       "Materials"
     ]
