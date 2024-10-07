@@ -19,7 +19,7 @@ execute:
 
 ## Course Description:
 
-This course provides an introduction to machine learning and related methods for big data from an economics perspective. Students will learn modern estimation methods for high-dimensional data, with a focus on causal inference and prediction problems in economics, business, and related fields. Through programming assignments and a final empirical project, students will apply machine learning techniques to real-world data.
+This course provides an introduction to machine learning and related methods for big data from an economics perspective. Students will learn modern estimation methods for high-dimensional data, with a focus on causal inference and prediction problems in economics, business, and related fields. Through programming assignments and a final empirical project, students will apply machine learning techniques to real-world data. Using Generative AI (ChatGPT, Google Colab,...) and other tools will be part of the course to enhance the learning experience.
 
 ## Learning Outcomes
 
